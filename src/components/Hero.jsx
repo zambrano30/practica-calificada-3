@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <>
-      <section className="flex flex-col lg:flex-row items-center lg:items-stretch justify-between bg-gradient-to-r from-blue-50 to-white py-16 px-8 rounded-xl bg-[url(background)] mt-8">
+      <section className=" h-vh flex flex-col lg:flex-row items-center lg:items-stretch justify-between bg-gradient-to-r from-blue-50 to-white py-16 px-8 rounded-xl bg-[url(background)] ">
         <div className="flex-1 flex flex-col justify-center lg:items-start text-left font-semibold max-w-xl">
           <h2 className="text-4xl md:text-5xl  mb-2 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#8AA4F2] to-[#C6B4EE]">
             Bootstrap 5 theme
@@ -21,13 +21,13 @@ export function Hero() {
             Check Demo
           </a>
         </div>
-        <figure className="hidden lg:flex flex-1 justify-end items-center lg:pl-12">
+        
           <img
             src="/illustration1.png"
             alt="Hero Illustration"
-            className="w-[500px] h-[500px] object-contain drop-shadow-2xl"
+            className="lg:w-[50%]  "
           />
-        </figure>
+        
       </section>
       <div className="w-full h-px bg-gray-400 opacity-20 my-8" />
     </>
