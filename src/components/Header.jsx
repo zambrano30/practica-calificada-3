@@ -2,7 +2,7 @@ import { NavBar } from "./NavBar";
 
 export function Header() {
   return (
-    <header className="flex justify-between h-20 w-full">
+    <header className="flex justify-between h-10 w-full">
         <img
           src="/logo.png"
           alt="Logo"
