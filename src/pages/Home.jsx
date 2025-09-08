@@ -3,7 +3,7 @@ import { Hero } from "../components/Hero";
 
 export function Home(){
     return(
-        <main className="h-vh max-w-full">
+        <main className=" h-screen">
             <Hero/>
             <Companies/>
         </main>
